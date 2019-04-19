@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:background="#FFFFFF">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:text="Welcome"
+            android:textColor="#424242"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/welcomeline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/welcome"
+            android:padding="3dp"
+            android:background="#424242"/>
+
+        <TextView
+            android:id="@+id/yourrate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/welcomeline"
+            android:text="Your Ratings and Reviews"
+            android:textColor="#424242"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/ratelist"
+            android:padding="5dp"
+            android:layout_below="@id/yourrate">
+
+
+
+        </ListView>
+
+        <Button
+            android:id="@+id/wishreal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratelist"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:text="Your WISHLIST" />
+
+    </RelativeLayout>
+
+</ScrollView>

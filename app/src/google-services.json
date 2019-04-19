@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "949126485253",
+    "firebase_url": "https://jbfirst-d45b8.firebaseio.com",
+    "project_id": "jbfirst-d45b8",
+    "storage_bucket": "jbfirst-d45b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949126485253:android:25881cd1611e3786",
+        "android_client_info": {
+          "package_name": "com.example.barath.jb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949126485253-smkdf7h2bsoussekmk804j1iu6mdnqta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-H9M6O0h2R8_a5Xo5V0fpu83iYkBg4L8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
